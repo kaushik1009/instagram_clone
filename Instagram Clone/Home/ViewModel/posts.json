@@ -1,0 +1,78 @@
+{
+  "posts": [
+    {
+      "postOwner": "Cristiano",
+      "caption": "Beautiful view 😍",
+      "likes": 120,
+      "imageUrl": "https://cdn.cocoacasts.com/cc00ceb0c6bff0d536f25454d50223875d5c79f1/above-the-clouds.jpg",
+      "videoUrl": "",
+      "profileImageUrl": "https://img.olympics.com/images/image/private/t_s_w2440/t_s_16_9_g_auto/f_auto/primary/ydk9vatpnihwfquy6zq3",
+      "comments": [
+        {
+          "username": "userA",
+          "comment": "Comment 1"
+        },
+        {
+          "username": "userB",
+          "comment": "Comment 2"
+        }
+      ],
+      "timeStamp": "20 mins ago"
+    },
+    {
+      "postOwner": "Messi",
+      "caption": "Excellent vacayyyyy!!!!! 🏖️",
+      "likes": 85,
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2018/06/macOS-Mojave-Dynamic-Wallpaper-transition.jpg",
+      "videoUrl": "",
+      "profileImageUrl": "https://cdn.britannica.com/34/212134-050-A7289400/Lionel-Messi-2018.jpg",
+      "comments": [
+        {
+          "username": "userC",
+          "comment": "Comment 3"
+        }
+      ],
+      "timeStamp": "1 day ago"
+    },
+    {
+      "postOwner": "Neymar jr",
+      "caption": "Caption for post 3",
+      "likes": 230,
+      "imageUrl": "https://divnil.com/wallpaper/iphone15/img/app/v/w/vw-bus_20220704_raw.jpg",
+      "videoUrl": "",
+      "profileImageUrl": "https://e0.365dm.com/19/05/2048x1152/skysports-neymar-football-psg_4681258.jpg?20190529124515",
+      "comments": [],
+      "timeStamp": "2 days ago"
+    },
+    {
+      "postOwner": "Robert Downey jr",
+      "caption": "Caption for post 4",
+      "likes": 50,
+      "imageUrl": "https://divnil.com/wallpaper/ipad/img/app/p/a/papersco-be92-spiderman-suit-avengers-infinitywar-marvel-hero-art-film-8-wallpaper_0b7f63735355c7c016c52d8ed5d57555_raw.jpg",
+      "videoUrl": "",
+      "profileImageUrl": "https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_1400/MTk5NjgwMTkyNTIyODIzMjk2/premiere-of-columbia-pictures-spider-man-homecoming---arrivals.webp",
+      "comments": [
+        {
+          "username": "userD",
+          "comment": "Comment 4"
+        }
+      ],
+      "timeStamp": "45 mins ago"
+    },
+    {
+      "postOwner": "Tom Holland",
+      "caption": "Caption for post 20",
+      "likes": 320,
+      "imageUrl": "https://divnil.com/wallpaper/ipad/img/app/s/p/spider-man-into-the-spider-verse-2019_a2hrzmwumzqarawkpjrnzwltrwdlaw0_569beed28447ca9a57c5eaa35d57c4dc_raw.jpg",
+      "videoUrl": "",
+      "profileImageUrl": "https://assets.teenvogue.com/photos/656b751684ed8f9478bb60eb/16:9/w_2240,c_limit/1258362974",
+      "comments": [
+        {
+          "username": "userT",
+          "comment": "Comment 20"
+        }
+      ],
+      "timeStamp": "3 days ago"
+    }
+  ]
+}

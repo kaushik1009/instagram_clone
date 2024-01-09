@@ -24,8 +24,9 @@ class LoginViewController:UIViewController {
     
     private func setupSignUpLabel() {
         let attributedString = NSMutableAttributedString(string: signUpLabel.text ?? "")
+        attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.lightGray, range: NSRange(location: 0, length: 22))
         attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.link, range: NSRange(location: 23, length: 7))
-        attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: 17, weight: .bold), range: NSRange(location: 23, length: 7))
+        attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: 17, weight: .semibold), range: NSRange(location: 23, length: 7))
         signUpLabel.attributedText = attributedString
     }
 }

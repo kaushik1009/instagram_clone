@@ -8,27 +8,30 @@
 import UIKit
 
 class SplashViewController: UIViewController {
-
+    
     private let logoImageView: UIImageView = {
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 150, height: 150))
         imageView.image = UIImage(named: "logo")
         return imageView
     }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(logoImageView)
-        view.backgroundColor = .black
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            self.navigateToLoginOrHome()
+        }
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         logoImageView.center = view.center
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            self.animate()
+            self.animateLogo()
         }
     }
     
-    private func animate() {
+    private func animateLogo() {
         UIView.animate(withDuration: 1) {
             let size = self.view.frame.size.width * 3
             let diffX = size - self.view.frame.size.width
@@ -37,13 +40,11 @@ class SplashViewController: UIViewController {
         }
         UIView.animate(withDuration: 1, animations: {
             self.logoImageView.alpha = 0
-        }, completion: { done in
-            if done {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                    let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "loginViewController") as! LoginViewController
-                    self.present(loginViewController, animated: true, completion: nil)
-                }
-            }
         })
+    }
+    
+    private func navigateToLoginOrHome() {
+        let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "homeViewController") as! HomeViewController
+        self.navigationController?.pushViewController(loginViewController, animated: true)
     }
 }

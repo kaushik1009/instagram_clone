@@ -1,0 +1,46 @@
+{
+  "stories": [
+    {
+      "storyOwner": "Altman",
+      "imageUrl": "",
+      "videoUrl": "",
+      "profileImageUrl": "https://media.wired.com/photos/655cf58564de22446963f396/master/pass/Sam-Altman-OpenAI-Return-Business-1258197415.jpg",
+      "isOpened": false,
+    },
+    {
+      "storyOwner": "Zuckerberg",
+      "imageUrl": "",
+      "videoUrl": "",
+      "profileImageUrl": "https://www.forbesindia.com/media/images/2023/Nov/img_223547_cut057markzuckerbergbyguerinblaskforforbes_89171_final_bg.jpg",
+      "isOpened": false,
+    },
+    {
+      "storyOwner": "Pichai",
+      "imageUrl": "",
+      "videoUrl": "",
+      "profileImageUrl": "https://images.moneycontrol.com/static-mcnews/2019/12/Sundar-Pichai.jpg?impolicy=website&width=1600&height=900",
+      "isOpened": false,
+    },
+    {
+      "storyOwner": "Musk",
+      "imageUrl": "",
+      "videoUrl": "",
+      "profileImageUrl": "https://cdn.britannica.com/45/223045-050-A6453D5D/Telsa-CEO-Elon-Musk-2014.jpg",
+      "isOpened": true,
+    },
+    {
+      "storyOwner": "Gates",
+      "imageUrl": "",
+      "videoUrl": "",
+      "profileImageUrl": "https://cdn.britannica.com/47/188747-050-1D34E743/Bill-Gates-2011.jpg",
+      "isOpened": true,
+    },
+    {
+      "storyOwner": "Jeff",
+      "imageUrl": "",
+      "videoUrl": "",
+      "profileImageUrl": "https://m.media-amazon.com/images/M/MV5BYTNlOGZhYzgtMmE3OC00Y2NiLWFhNWQtNzg5MjRhNTJhZGVmXkEyXkFqcGdeQXVyNzg5MzIyOA@@._V1_.jpg",
+      "isOpened": true,
+    },
+  ],
+}
